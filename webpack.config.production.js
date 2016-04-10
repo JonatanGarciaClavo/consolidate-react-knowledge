@@ -39,7 +39,7 @@ module.exports = {
       loader: "style-loader!css-loader"
     }, {
       test: /\.(png|jpg)$/,
-      loader: "url-loader?limit=10192"
+      loader: "url-loader?limit=8192"
     }, {
       test: /\.svg$/,
       loader: "url?limit=10000&mimetype=image/svg+xml"

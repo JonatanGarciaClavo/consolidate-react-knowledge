@@ -1,7 +1,7 @@
 # Consolidate React Knowledge
 
 ## Link
-https://rawgit.com/JonatanGarciaClavo/react101/master/index.html
+https://rawgit.com/JonatanGarciaClavo/consolidate-react-knowledge/master/index.html
 
 ## Reference
 
