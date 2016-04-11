@@ -102,13 +102,13 @@ export default class Presentation extends React.Component {
             <Heading size={2} caps textColor="primary">
               Wireframes
             </Heading>
-            <Image width="75%" src={images.list}/>
+            <Image width="75%" src={images.list.replace("/", "")}/>
           </Slide>
           <Slide transition={["zoom", "fade"]} bgColor={bgColor}>
             <Heading size={2} caps textColor="primary">
               Wireframes
             </Heading>
-            <Image width="75%" src={images.card}/>
+            <Image width="75%" src={images.card.replace("/", "")}/>
           </Slide>
           <Slide transition={["zoom", "fade"]} bgColor={bgColor}>
             <Heading caps textColor="primary">
