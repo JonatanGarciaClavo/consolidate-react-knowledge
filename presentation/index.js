@@ -114,6 +114,12 @@ export default class Presentation extends React.Component {
             <Heading caps textColor="primary">
               Demo
             </Heading>
+            <CodePane
+              lang="bash"
+              source={require("raw!../assets/demo.sh")}
+              margin="20px auto"
+              textSize="0.7em"
+            />
           </Slide>
           <Slide transition={["zoom", "fade"]} bgColor={bgColor}>
             <Heading size={1} caps textColor="primary">
